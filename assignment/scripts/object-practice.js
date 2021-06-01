@@ -27,14 +27,15 @@ console.log('A little about me:', me);// confirmed in console me info updated..
 */
 var fullName = (me.firstName + me.lastName);// updated with dot accessor..
 
-console.log(fullName);
+console.log(fullName);// confirmed in console.log..
 
 
 /* 3. Nested arrays
   - Console.log your first favorite food
   - Console.log your last favorite food
 */
-
+var firstFavFood = (me.favThreeFoods[0]);//second attempt 
+console.log(firstFavFood);
 
 
 /* 4. Change a property of an existing object.
