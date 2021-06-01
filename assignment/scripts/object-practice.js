@@ -36,7 +36,7 @@ console.log(fullName);// confirmed in console.log..
 */
 var firstFavFood = (me.favThreeFoods[0]);//second attempt.. it worked!
 console.log(firstFavFood);
-var lastFavFood = (me.favThreeFoods[2]);//first attempt..
+var lastFavFood = (me.favThreeFoods[2]);//first attempt.. confirmed in console..
 console.log(lastFavFood);
 
 /* 4. Change a property of an existing object.
@@ -45,7 +45,10 @@ console.log(lastFavFood);
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count.
 */
-
+console.log(me.shoeCount)// confirmed in console.log..
+var NewShoeCount = me.shoeCount += 1;
+ console.log(NewShoeCount);//getting new shoes.. add 1..
+ // confirmed in console log and new value is 4..!
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
