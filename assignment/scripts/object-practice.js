@@ -25,7 +25,7 @@ console.log('A little about me:', me);// confirmed in console me info updated..
     created above to set its value.
   - Console.log fullName
 */
-var fullName (firstName + lastName);
+var fullName = (me.firstName + me.lastName);// updated with dot accessor..
 
 console.log(fullName);
 
