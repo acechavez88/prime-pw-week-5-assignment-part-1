@@ -14,7 +14,7 @@ const me = {
   lastName: 'Chavez',
   hasSiblings: true,
   shoeCount: 3,
-  favThreeFoods:['mexican','anything italian','sushi'];
+  favThreeFoods:['mexican','anything italian','sushi'],
   // TODO - add properties here
 };
 console.log('A little about me:', me);
