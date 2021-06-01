@@ -57,3 +57,5 @@ var NewShoeCount = me.shoeCount += 1;
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+var favoriteColor = me.favoriteColor += 'aquamarine';
+console.log('my favorite color is',favoriteColor);
