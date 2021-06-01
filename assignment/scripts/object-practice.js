@@ -49,6 +49,7 @@ console.log(me.shoeCount)// confirmed in console.log..
 var NewShoeCount = me.shoeCount += 1;
  console.log(NewShoeCount);//getting new shoes.. add 1..
  // confirmed in console log and new value is 4..!
+ console.log(me.shoeCount);// confirmed shoe count in console reads 4..
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
