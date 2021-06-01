@@ -57,6 +57,8 @@ var NewShoeCount = me.shoeCount += 1;
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
-var FavoriteColor = 'aquamarine';
- me.FavoriteColor += 'aquamarine';// using same method as above..
-console.log('my favorite color is',FavoriteColor);// console logged..
+// var FavoriteColor = me.FavoriteColor += 'aquamarine';// using same method as above..
+// console.log('my favorite color is',me.FavoriteColor);// console log is stating
+//undefined aquamarine..
+me.favoriteColor = 'Aquamarine';
+console.log(me);
