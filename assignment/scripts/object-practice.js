@@ -59,6 +59,7 @@ var NewShoeCount = me.shoeCount += 1;
 */
 // var FavoriteColor = me.FavoriteColor += 'aquamarine';// using same method as above..
 // console.log('my favorite color is',me.FavoriteColor);// console log is stating
-//undefined aquamarine..
-me.favoriteColor = 'Aquamarine';
-console.log(me);
+//undefined aquamarine.. using new code below..
+me.favoriteColor = 'Aquamarine'; // using this code to push property into object..
+console.log('My favorite color is',me.favoriteColor);// testing console. should read..
+// My favorite color is Aquamarine.. confirmed! 
