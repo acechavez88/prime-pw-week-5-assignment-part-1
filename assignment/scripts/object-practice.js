@@ -45,11 +45,11 @@ console.log(lastFavFood);
   - Set your object's shoeCount to be what it was plus 1
   - Console.log your updated shoe count.
 */
-console.log(me.shoeCount)// confirmed in console.log..
+console.log('current shoe count:', me.shoeCount)// updated string to read..
 var NewShoeCount = me.shoeCount += 1;
- console.log(NewShoeCount);//getting new shoes.. add 1..
+ console.log('adding one pair now have:', NewShoeCount);//getting new shoes.. add 1..
  // confirmed in console log and new value is 4..!
- console.log(me.shoeCount);// confirmed shoe count in console reads 4..
+ console.log('total shoe:', me.shoeCount);// confirmed shoe count in console reads 4..
 
 /* 5. Add a new property to an existing object.
   - Add a 'favoriteColor' to your existing object
@@ -62,4 +62,4 @@ var NewShoeCount = me.shoeCount += 1;
 //undefined aquamarine.. using new code below..
 me.favoriteColor = 'Aquamarine'; // using this code to push property into object..
 console.log('My favorite color is',me.favoriteColor);// testing console. should read..
-// My favorite color is Aquamarine.. confirmed! 
+// My favorite color is Aquamarine.. confirmed!
